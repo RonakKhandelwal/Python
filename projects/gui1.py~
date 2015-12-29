@@ -1,0 +1,4 @@
+import Tkinter
+
+t=Tkinter.tk()
+t.mainLoop()
