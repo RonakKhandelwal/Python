@@ -1,0 +1,18 @@
+Symbol          Name            Work
+print           print           prints
+%r              raw             print raw data
+%s              string          prints string
+%d              decimal         prints integer
+%f              floating point  print floating points numbers
+"""             triple quotes   helps you print without any problem any number of lines untill you end it with """
+raw_input()     input           takes input raw input;it can take arguments as raw_input("ENter something")
+import          import          importing modules
+argv            argument variable   help take input when the program is running
+open            opens files
+read()          read opened files
+close()         closes opened file
+readline()      reades line by line
+truncate()      empties the file
+write(stuff)    writes stuff
+
+

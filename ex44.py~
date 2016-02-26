@@ -1,0 +1,18 @@
+class parent(object):
+    def implicit(self):
+        print"PAARENT implicit()"
+    def override(self):
+        print"This is parent and this might be overridden"
+        
+class child(parent):
+    def override(self):
+        print"This is child and its fucking overriding"
+    
+dad=parent()
+son=child()
+
+dad.implicit()
+son.implicit()
+
+dad.override()
+son.override()
